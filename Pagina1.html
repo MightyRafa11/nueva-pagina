@@ -1,0 +1,177 @@
+<html>
+<head>
+<title> Mike Tyson </title>
+
+<style>
+body {
+    border: 5px;
+    background-color: brown;
+    cursor: url('https://cdn.cursors-4u.net/previews/boxing-gloves-be5b9662-32.webp') 32 32, auto !important;
+}
+    h1 {
+    color: aliceblue;
+    }
+
+    H2 {
+      color:blue  
+    }
+
+    h3 {
+        color:rgb(192, 29, 29)
+    }
+.TituloEspecial { 
+    font-size: 30px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border: 3px solid black; 
+    border-radius: 50px;
+    padding:30px;
+    margin: 20px; 
+    background-color: aqua;
+    box-shadow: 5px 5px 10px antiquewhite; 
+}
+    h1.hover {
+        color: red;
+    }
+    p:hover {
+        color:blue;
+    }
+    footer {
+        color:rgb(192, 29, 29)
+    }
+    .container {
+        max-width: 800px; margin: 40px auto; padding: 30px; background-color: #1a1a1e; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); border-left: 5px solid black
+        h1, h2  color: #ffffff; font-weight: 700;
+    }
+    P {
+        color: aliceblue;
+    }
+    table {
+        color:aliceblue
+    }
+    a:hover {
+        color:blue
+    }
+    #jumpscare {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: black;
+    opacity: 0;
+  }
+
+  #jumpscare.activo {
+    display: block;
+    animation: aparecer 1.5s ease-in forwards;
+  }
+
+  #jumpscare img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+    
+</style>
+
+<script>
+function jumpscare() {
+  const scare = document.getElementById("jumpscare");
+
+  scare.classList.add("activo");
+
+  setTimeout(() => {
+    scare.classList.remove("activo");
+  }, 1500);
+}
+</script> 
+
+</head>
+
+<body>
+
+    <button onclick="jumpscare()">Mas boxeadores</button>
+
+<div id="jumpscare">
+  <img src="jumpscare.jpg" alt="Jumpscare">
+</div>
+
+ 
+
+    <div class="container">
+    <main>
+<h1 class="TituloEspecial"> Su trayectoria </h1>
+<p> apodado como Iron Mike y Kid Dynamite, ​​ es un boxeador estadounidense. Tyson es considerado uno de los mejores boxeadores de peso pesado de todos los tiempos.​ Reinó como campeón mundial indiscutible de peso pesado de 1987 a 1990, Su ascenso meteórico estuvo acompañado de una vida personal turbulenta, marcada por problemas legales, periodos en prisión y un comportamiento errático dentro y fuera del cuadrilátero. A pesar de los altibajos financieros y personales, su figura se ha mantenido como un icono de la cultura pop
+</p>
+<hr>
+<video controls width="300" height="300">
+<source src="Mike Tyson  - TOP 3  fastest knockout.mp4">
+</video>
+<br>
+<audio controls>
+<source src="a.mp3">
+</audio>
+
+
+<table>
+<tr> 
+<th> Premios de tyson </th>
+<th> hijos de tyson </th>
+<th> records </th>
+</tr>
+
+
+<tr>
+<td> 6 títulos mundiales
+<td> Amir Tyson
+<td> 50 victorias 
+</tr>
+
+<tr>
+<td> CMB (WBC): 2 veces campeón mundial.
+<td> Exodus Tyson
+</tr>
+
+
+<tr>
+<td> AMB (WBA): 2 veces campeón mundial.
+<td> Miguel Leon Tyson
+<td>  6 derrotas 
+</tr>
+
+
+
+<tr>
+<td> FIB (IBF): 2 veces campeón mundial. 
+<td> Milan Tyson
+<td> 44 victorias por nocaut
+</tr>
+
+
+<tr> 
+<td> 
+<td>Mikey Lorna Tyson
+</tr>
+</table>
+<br>
+<hr>
+<a href="Menu.html"width="200" >
+Click aqui para volver
+<br>
+</a>
+<br>
+    </main>
+</body>
+<footer>Es muy bueno tyson, dio mio mamayema</footer>
+    </div>
+</html>
